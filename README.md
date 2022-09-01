@@ -1,27 +1,18 @@
-# Heading 1
+# SubDomain Enumeration
+	
+- Helps to increase attack surface
 
-## Heading 2
+## Methods of subdomain-enumeration
 
-### Heading 3
+- Passive Method:
+	+ Used crwaler like; shodan, censys, google crawler etc. to enumerate.
+	+ Tools
+		* subfinder
+		* finddomain
 
-#### Heading 4
-
-*Italic*
-
-~~Strikethrough text~~
-
-**Bold Text**
-
-***Bold Italic***
-
-Google: [Link Name](https://google.com "Google link")
-
-First Header | Second Header
-----------------------------
-
-`code()`
-
-```
-javascript code
-```
-
+- Active Method:
+	+ Bruteforcing method used.
+	+ Tools
+		* ffuf.
+		* dns brute force.
+	
